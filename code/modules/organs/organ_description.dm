@@ -241,3 +241,24 @@
 	min_broken_damage = 5
 	max_volume = 1
 	default_type = /obj/item/organ/external/skeletal
+
+/datum/organ_description/chest/mannequin
+	default_type = /obj/item/organ/external/mannequin/chest
+
+/datum/organ_description/groin/mannequin
+	default_type = /obj/item/organ/external/mannequin/groin
+
+/datum/organ_description/head/mannequin
+	default_type = /obj/item/organ/external/mannequin/head
+
+/datum/organ_description/arm/left/mannequin
+	default_type = /obj/item/organ/external/mannequin
+
+/datum/organ_description/arm/right/mannequin
+	default_type = /obj/item/organ/external/mannequin
+
+/datum/organ_description/leg/left/mannequin
+	default_type = /obj/item/organ/external/mannequin
+
+/datum/organ_description/leg/right/mannequin
+	default_type = /obj/item/organ/external/mannequin

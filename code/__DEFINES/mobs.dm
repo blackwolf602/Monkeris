@@ -211,6 +211,7 @@
 #define SPECIES_MONKEY			"Monkey"
 #define SPECIES_GOLEM			"Golem"
 #define SPECIES_SKELETON        "Skeleton"
+#define SPECIES_MANNEQUIN		"Mannequin" //Used in character setup preview, defined as new species for filtering
 
 #define RANDOM_BLOOD_TYPE pick(4;"O-", 36;"O+", 3;"A-", 28;"A+", 1;"B-", 20;"B+", 1;"AB-", 5;"AB+")
 

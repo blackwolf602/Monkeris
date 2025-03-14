@@ -130,7 +130,7 @@
 	var/gluttonous                // Can eat some mobs. Values can be GLUT_TINY, GLUT_SMALLER, GLUT_ANYTHING.
 	var/species_rarity_value = 1          // Relative rarity/collector value for this species.
 	                              // Determines the organs that the species spawns with and
-	var/list/has_process = list(    // which required-process checks are conducted and defalut organs for them.
+	var/list/has_process = list(    // which required-process checks are conducted and default organs for them.
 		OP_HEART =    /obj/item/organ/internal/vital/heart,
 		OP_LUNGS =    /obj/item/organ/internal/vital/lungs,
 		OP_STOMACH =  /obj/item/organ/internal/stomach,
