@@ -1,7 +1,7 @@
 var/global/list/valid_bloodtypes = list("A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-")
 
 /datum/preferences
-	var/species = SPECIES_MANNEQUIN
+	var/species = SPECIES_HUMAN
 
 	var/b_type = "A+"					//blood type (not-chooseable)
 

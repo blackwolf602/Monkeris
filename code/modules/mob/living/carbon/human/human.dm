@@ -43,8 +43,7 @@
 	make_blood()
 	generate_dna()
 
-	if(species == SPECIES_HUMAN | SPECIES_MONKEY)
-		sanity = new(src)
+	sanity = new(src)
 
 	AddComponent(/datum/component/fabric)
 
