@@ -69,9 +69,7 @@
 	girder.is_low = is_low_wall
 	girder.is_reinforced = is_reinforced
 	girder.update_icon()
-	remove_neighbour_connections()
-	ChangeTurf(/turf/floor/plating)
-	updateVisibility(src)
+	qdel(src)
 
 /turf/wall/get_matter()
 	return list(MATERIAL_STEEL = 5)

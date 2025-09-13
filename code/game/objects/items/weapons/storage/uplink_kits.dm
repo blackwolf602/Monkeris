@@ -245,12 +245,10 @@
 
 /obj/item/storage/briefcase/antimaterial_rifle/populate_contents()
 	new /obj/item/ammo_casing/antim(src)
-	new /obj/item/gun/projectile/automatic/modular/bolt/sniper(src)
+	new /obj/item/part/gun/frame/heavysniper(src)
 	new /obj/item/part/gun/modular/grip/serb(src)
-	new /obj/item/part/gun/modular/mechanism/boltgun/heavy(src)
-	new /obj/item/part/gun/modular/barrel/antim/long(src)
-	new /obj/item/part/gun/modular/stock/heavy(src)
-	new /obj/item/part/gun/modular/sights/customizable/scopeheavy(src)
+	new /obj/item/part/gun/modular/mechanism/boltgun(src)
+	new /obj/item/part/gun/modular/barrel/antim(src)
 
 /obj/item/storage/box/syndie_kit/toxin
 	name = "toxin kit"
