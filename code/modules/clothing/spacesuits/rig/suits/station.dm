@@ -69,6 +69,14 @@
 		/obj/item/rig_module/storage
 		)
 
+/obj/item/rig/industrial/equipped/mining
+	rarity_value = 20
+	initial_modules = list(
+		/obj/item/rig_module/device/drill,
+		/obj/item/rig_module/device/orescanner,
+		/obj/item/rig_module/vision/meson,
+		/obj/item/rig_module/storage
+		)
 
 /***************************************
 	EVA Suit
