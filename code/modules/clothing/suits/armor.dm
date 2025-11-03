@@ -318,6 +318,7 @@
 	desc = "A chitin vest with hand and arm-guards attached that excels in protecting the wearer against high-velocity solid projectiles."
 	icon_state = "bulletproof_panzer"
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
+		matter = null
 
 /obj/item/clothing/suit/armor/platecarrier
 	name = "black platecarrier vest"
