@@ -286,7 +286,7 @@
 	name = "panzer helmet"
 	desc = "A bulletproof helmet, made from panzer chitin."
 	icon_state = "bulletproof_panzer"
-	flags_inv = NONE
+	flags_inv = HIDEEARS | BLOCKHEADHAIR
 	price_tag = 400
 	matter = null
 
