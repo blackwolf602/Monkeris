@@ -239,6 +239,22 @@
 	)
 	slowdown = LIGHT_SLOWDOWN
 
+/obj/item/clothing/accessory/armor/panzer
+	name = "panzer armor plates"
+	desc = "Plates from a panzer vest, now usable to reinforce clothes."
+	icon_state = "armor_panzer"
+	armor = list(
+		melee = 5,
+		bullet = 11,
+		energy = 5,
+		bomb = 0,
+		bio = 0,
+		rad = 0
+	)
+	matter = null
+	slowdown = LIGHT_SLOWDOWN
+
+
 /obj/item/clothing/accessory/armor/platecarrier
 	name = "platecarrier armor plates"
 	desc = "Plates from a platecarrier, now usable to reinforce clothes."

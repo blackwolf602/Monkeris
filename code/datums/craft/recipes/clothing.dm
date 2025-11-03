@@ -227,6 +227,15 @@
 		list(QUALITY_ADHESIVE, 15, 15)
 	)
 
+/datum/craft_recipe/clothing/armor_attach/panzer
+	name = "Panzer armor plates"
+	result = /obj/item/clothing/accessory/armor/panzer
+	steps = list(
+		list(/obj/item/clothing/suit/armor/bulletproof/panzer, 1),
+		list(/obj/item/part/armor, 2),
+		list(QUALITY_ADHESIVE, 15, 15)
+	)
+
 /datum/craft_recipe/clothing/armor_attach/platecarrier
 	name = "Platecarrier armor plates"
 	result = /obj/item/clothing/accessory/armor/platecarrier
