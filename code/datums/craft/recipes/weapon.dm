@@ -278,6 +278,18 @@
 		list(QUALITY_WELDING, 10, "time" = 30),
 		list(QUALITY_HAMMERING, 5, 10))
 
+/datum/craft_recipe/weapon/jager_spear
+	name = "jager spear"
+	result = /obj/item/tool/spear/jager
+	steps = list(
+		list(/obj/item/stack/rods, 2, "time" = 30),
+		list(QUALITY_WELDING, 10, "time" = 30),
+		list(/obj/item/stack/cable_coil, 2, "time" = 10),
+		list(CRAFT_MATERIAL, 2, MATERIAL_STEEL, "time" = 10),
+		list(QUALITY_WELDING, 10, "time" = 30),
+		list(/obj/item/reagent_containers/food/snacks/meat/roachmeat/jager_claw, "time" = 10),
+		list(QUALITY_HAMMERING, 5, 10))
+
 /datum/craft_recipe/weapon/bone
 	name = "bone club"
 	result = /obj/item/tool/hammer/mace/makeshift/baseballbat/bone

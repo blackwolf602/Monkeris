@@ -84,6 +84,12 @@
 	desc = "A slab of sickly-green bubbling meat cut from a jager roach. You swear you can see it still twitching. Delicious!"
 	preloaded_reagents = list("protein" = 6, "blattedin" = 6, "gewaltine" = 8, "diplopterum" = 2)
 
+/obj/item/reagent_containers/food/snacks/meat/roachmeat/jager_claw
+	name = "Jager claw"
+	desc = "A claw from a jager roach. Delicious!"
+	icon_state = "meat_jagerclaw"
+	preloaded_reagents = list("protein" = 6, "blattedin" = 6, "gewaltine" = 8, "diplopterum" = 2)
+
 /obj/item/reagent_containers/food/snacks/meat/roachmeat/kraftwerk
 	name = "Kraftwerk meat"
 	desc = "A slab of sickly-green meat cut from a kraftwerk roach, bursting with nanite activity. Delicious!"
