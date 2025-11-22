@@ -712,6 +712,9 @@
 
 
 /obj/item/clothing/head/armor/faceshield/paramedic/proc/schedule_scan()
+	if(!ismob(loc))
+		return
+
 	if(scan_scheduled)
 		return
 
@@ -722,6 +725,11 @@
 	spawn(scan_interval)
 		if(QDELETED(src))
 			return
+
+		if(!ismob(loc))
+			scan_scheduled = FALSE
+			return
+
 		scan_scheduled = FALSE
 		report_health_alerts()
 
