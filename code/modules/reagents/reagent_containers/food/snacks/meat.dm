@@ -91,6 +91,8 @@
 	name = "Jager claw"
 	desc = "A claw from a jager roach. Delicious!"
 	icon_state = "meat_jagerclaw"
+	slice_path = /obj/item/reagent_containers/food/snacks/meat/crab
+	slices_num = 1
 	preloaded_reagents = list("protein" = 6, "blattedin" = 6, "gewaltine" = 8, "diplopterum" = 2)
 
 /obj/item/reagent_containers/food/snacks/meat/roachmeat/kraftwerk
@@ -110,7 +112,7 @@
 	bitesize = 6
 	preloaded_reagents = list("protein" = 9, "pararein" = 8)
 	slice_path = /obj/item/reagent_containers/food/snacks/meat/crab
-	slices_num = 3
+	slices_num = 1
 	price_tag = 200
 
 /obj/item/reagent_containers/food/snacks/meat/spider/hunter
