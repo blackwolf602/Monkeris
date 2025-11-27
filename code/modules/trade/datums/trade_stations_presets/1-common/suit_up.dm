@@ -124,7 +124,8 @@
 			/obj/item/clothing/suit/storage/bladerunner,
 			/obj/item/clothing/suit/storage/bomj,
 			/obj/item/clothing/suit/wcoat,
-			/obj/item/clothing/suit/xenos
+			/obj/item/clothing/suit/xenos,
+			/obj/item/clothing/suit/storage/toggle/robe/kampfer
 		),
 		"Utility" = list(
 			/obj/item/clothing/suit/storage/greatcoat,
