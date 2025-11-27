@@ -117,6 +117,18 @@
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
 	matter = list(MATERIAL_BIOMATTER = 50)
 
+/obj/item/clothing/suit/storage/toggle/robe/jager
+	name = "jager suit"
+	desc = "Feel the power of a jager (Warning doesn't include claws!)"
+	hood = /obj/item/clothing/head/robe/jager
+	icon_state = "jagersuit"
+	icon_up = "jagersuit"
+	icon_down = "jagersuit"
+	action_button_name = "Toggle Hood"
+	flags_inv = HIDEJUMPSUIT|HIDETAIL
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
+	matter = list(MATERIAL_BIOMATTER = 50)
+
 /*
  * Misc
  */

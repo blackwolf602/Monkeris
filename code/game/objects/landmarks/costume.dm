@@ -57,6 +57,9 @@
 /obj/landmark/costume/kampfer/New()
 	new /obj/item/clothing/suit/storage/toggle/robe/kampfer(src.loc)
 
+/obj/landmark/costume/jager/New()
+	new /obj/item/clothing/suit/storage/toggle/robe/jager(src.loc)
+
 /obj/landmark/costume/pirate/New()
 	new /obj/item/clothing/under/pirate(src.loc)
 	new /obj/item/clothing/suit/pirate(src.loc)
