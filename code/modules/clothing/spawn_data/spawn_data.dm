@@ -627,6 +627,9 @@
 /obj/item/clothing/mask/gas/sexyclown
 	rarity_value = 18.3333
 
+/obj/item/clothing/suit/storage/toggle/robe/kampfer
+	rarity_value = 18.3333
+
 /obj/item/clothing/mask/gas/mime
 	rarity_value = 18.3333
 
