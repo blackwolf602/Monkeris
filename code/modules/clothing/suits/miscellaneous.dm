@@ -129,6 +129,43 @@
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
 	matter = list(MATERIAL_BIOMATTER = 50)
 
+
+/obj/item/clothing/suit/storage/toggle/robe/kampfer
+	name = "kampfer suit"
+	desc = "How do you do, fellow roaches?"
+	hood = /obj/item/clothing/head/robe/kampfer
+	icon_state = "kampfersuit"
+	icon_up = "kampfersuit"
+	icon_down = "kampfersuit"
+	action_button_name = "Toggle Hood"
+	flags_inv = HIDEJUMPSUIT|HIDETAIL
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
+	matter = list(MATERIAL_BIOMATTER = 50)
+
+/obj/item/clothing/suit/storage/toggle/robe/jager
+	name = "jager suit"
+	desc = "Feel the power of a jager."
+	hood = /obj/item/clothing/head/robe/jager
+	icon_state = "jagersuit"
+	icon_up = "jagersuit"
+	icon_down = "jagersuit"
+	action_button_name = "Toggle Hood"
+	flags_inv = HIDEJUMPSUIT|HIDETAIL
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
+	matter = list(MATERIAL_BIOMATTER = 50)
+
+/obj/item/clothing/suit/storage/toggle/robe/fuhrer
+	name = "fuhrer suit"
+	desc = "now you can be the glorious leader of cockroaches."
+	hood = /obj/item/clothing/head/robe/fuhrer
+	icon_state = "fuhrersuit"
+	icon_up = "fuhrersuit"
+	icon_down = "fuhrersuit"
+	action_button_name = "Toggle Hood"
+	flags_inv = HIDEJUMPSUIT|HIDETAIL
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
+	matter = list(MATERIAL_BIOMATTER = 50)
+
 /*
  * Misc
  */

@@ -126,7 +126,8 @@
 			/obj/item/clothing/suit/wcoat,
 			/obj/item/clothing/suit/xenos,
 			/obj/item/clothing/suit/storage/toggle/robe/kampfer,
-			/obj/item/clothing/suit/storage/toggle/robe/jager
+			/obj/item/clothing/suit/storage/toggle/robe/jager,
+			/obj/item/clothing/suit/storage/toggle/robe/fuhrer
 		),
 		"Utility" = list(
 			/obj/item/clothing/suit/storage/greatcoat,

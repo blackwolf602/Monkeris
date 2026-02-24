@@ -171,6 +171,15 @@
 	body_parts_covered = HEAD|FACE|EYES|EARS
 	item_flags = FLEXIBLEMATERIAL
 
+/obj/item/clothing/head/robe/fuhrer
+	name = "fuhrer mask"
+	icon_state = "fuhrersuit"
+	item_state = "fuhrersuit"
+	desc = "Now you can eat trash in style!"
+	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|BLOCKHAIR|HIDEFACE
+	body_parts_covered = HEAD|FACE|EYES|EARS
+	item_flags = FLEXIBLEMATERIAL
+
 //stylish bs12 hats
 
 /obj/item/clothing/head/bowlerhat
