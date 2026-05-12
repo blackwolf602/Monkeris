@@ -144,7 +144,7 @@
 
 /obj/item/clothing/suit/storage/toggle/robe/jager
 	name = "jager suit"
-	desc = "Feel the power of a jager."
+	desc = "Feel the power of the jager!"
 	hood = /obj/item/clothing/head/robe/jager
 	icon_state = "jagersuit"
 	icon_up = "jagersuit"
@@ -156,7 +156,7 @@
 
 /obj/item/clothing/suit/storage/toggle/robe/fuhrer
 	name = "fuhrer suit"
-	desc = "now you can be the glorious leader of cockroaches."
+	desc = "Now you can be the glorious leader of cockroaches!"
 	hood = /obj/item/clothing/head/robe/fuhrer
 	icon_state = "fuhrersuit"
 	icon_up = "fuhrersuit"
@@ -165,6 +165,20 @@
 	flags_inv = HIDEJUMPSUIT|HIDETAIL
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
 	matter = list(MATERIAL_BIOMATTER = 50)
+
+/obj/item/clothing/suit/storage/toggle/robe/seuche
+	name = "seuche suit"
+	desc = "blattedin and compact smoke machine sold separately!"
+	hood = /obj/item/clothing/head/robe/seuche
+	icon_state = "seuchesuit"
+	icon_up = "seuchesuit"
+	icon_down = "seuchesuit"
+	action_button_name = "Toggle Hood"
+	flags_inv = HIDEJUMPSUIT|HIDETAIL
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
+	matter = list(MATERIAL_BIOMATTER = 50)
+
+
 
 /*
  * Misc
