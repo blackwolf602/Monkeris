@@ -36,6 +36,8 @@ Has ability of every roach.
 	butcher_results = list(/obj/item/reagent_containers/food/snacks/meat/roachmeat/kaiser = list(14, BUTCHER_DIFFICULT))
 	sanity_damage = 3
 
+	butcher_results = list(/obj/item/clothing/suit/space/void/kaiser = list(1, BUTCHER_EFFORTLESS), /obj/item/reagent_containers/food/snacks/meat/roachmeat/kaiser = list(14, BUTCHER_DIFFICULT))
+
 	ranged = 1 // RUN, COWARD!
 	projectiletype = /obj/item/projectile/roach_spit
 	fire_verb = "spits glowing bile"
